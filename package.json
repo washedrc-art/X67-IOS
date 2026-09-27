@@ -1,0 +1,20 @@
+{
+  "name": "x67-security-ios",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.2",
+    "@xmldom/xmldom": "^0.9.12",
+    "fflate": "^0.8.2",
+    "plist": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}
